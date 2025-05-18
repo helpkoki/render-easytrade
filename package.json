@@ -5,15 +5,15 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "postinstall": "npx puppeteer browsers install chrome cors puppeteer-extra puppeteer-extra-plugin-stealth"
+    "postinstall": "npx puppeteer browsers install chrome"
   },
-"dependencies": {
-  "cors": "^2.8.5",
-  "express": "^5.1.0",
-  "puppeteer": "^24.8.2",
-  "puppeteer-extra": "^3.3.6",
-  "puppeteer-extra-plugin-stealth": "^2.11.1",
-  "tesseract.js": "^6.0.1"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "puppeteer": "^24.8.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "tesseract.js": "^6.0.1"
   },
   "engines": {
     "node": ">=18.0.0"
