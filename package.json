@@ -1,21 +1,20 @@
 {
   "name": "takealot-price-api",
   "version": "1.0.0",
-  "description": "A simple Express API to scrape and extract prices using Puppeteer and Tesseract.js",
-  "main": "app.js",
+  "description": "Takealot price scraping API using Puppeteer and OCR",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "postinstall": "npx puppeteer browsers install chrome"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "puppeteer": "^24.8.2",
+    "puppeteer": "^21.3.8",
     "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "tesseract.js": "^6.0.1"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.x"
   }
 }
