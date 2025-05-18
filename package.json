@@ -4,7 +4,8 @@
   "description": "A simple Express API to scrape and extract prices using Puppeteer and Tesseract.js",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "postinstall": "npx puppeteer browsers install chrome"
   },
   "dependencies": {
     "cors": "^2.8.5",
