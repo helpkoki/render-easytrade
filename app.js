@@ -77,7 +77,8 @@ async function getScreenshotAndExtractPrices(searchTerm) {
     await autoScroll(page);
 
     // Wait for price elements to load
-    await page.waitForSelector('[class*="price"]', { timeout: 10000 });
+    await page.waitForSelector('[data-product-id]', { timeout: 15000 });
+
 
     // Optional: debug screenshot
     // await page.screenshot({ path: 'debug.png', fullPage: true });
